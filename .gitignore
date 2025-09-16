@@ -1,0 +1,33 @@
+# Environment files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+venv/
+.env/
+.venv/
+
+# IDE/project settings
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Large data files (if not needed in repo)
+*.csv
+*.db
+*.sqlite3
+
+# Logs
+*.log

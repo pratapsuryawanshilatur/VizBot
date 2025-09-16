@@ -1,0 +1,39 @@
+# --- CORE PROJECT DEPENDENCIES ---
+#fastapi  # Web server framework
+#uvicorn[standard]  # ASGI server for FastAPI
+streamlit  # Dashboard frontend framework
+streamlit-authenticator
+
+# --- LLM + AGENTS ---
+langchain==0.1.20  # Framework for chaining LLMs
+langgraph  # Multi-agent orchestration with state handling
+openai  # Access to OpenAI models
+langchain-openai==0.0.6  # LangChain support for OpenAI integration
+langchain-community
+langchain-core==0.1.52
+
+
+# --- DATA PROCESSING ---
+pandas  # Data manipulation
+sqlalchemy  # ORM for PostgreSQL
+psycopg2-binary  # PostgreSQL adapter for Python
+python-dotenv  # Load environment variables from .env files
+PyMuPDF
+
+# --- VECTOR DB + EMBEDDINGS ---
+#chromadb  # Local vector store for RAG
+#sentence-transformers  # Embedding model support for vector search
+
+# --- VISUALIZATION ---
+plotly  # Interactive plots
+matplotlib  # Static graphs
+seaborn  # Statistical graphs
+kaleido  # Export Plotly graphs as PNG (used by Plotly)
+
+# --- OCR + UTILS ---
+#pytesseract  # OCR engine for extracting text from images
+#opencv-python  # Image preprocessing before OCR
+#pypdf  # For loading and processing PDF documents
+
+# --- MISC ---
+tiktoken  # Token counter for OpenAI
