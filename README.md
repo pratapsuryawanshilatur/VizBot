@@ -38,11 +38,13 @@ project-root/
    cd vizbot
 
 2. Create & activate virtual environment:
+    ```bash
     python -m venv venv
     source venv/bin/activate   # (Linux/Mac)
     venv\Scripts\activate      # (Windows)
 
 3. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 
 🔑 Environment Setup
@@ -61,18 +63,23 @@ Create a .env file in project root:
 ▶️ Running the App
 
 Run the Streamlit application:
+    ```bash
     streamlit run app.py
 
 The app will launch in your browser at:
+
 👉 http://localhost:8501
 
 👥 User Authentication
 
 Before first use, create a user via:
+
 python scripts/create_user.py <username> <password>
 
 📊 Example Query Scenarios
 
 "Show CO₂ utilization of Seminar-51 between 2025-05-05 and 2025-05-12"
+
 "Compare temperature and humidity in Lecture Theatre-4"
+
 "Top 3 rooms with highest occupancy"
