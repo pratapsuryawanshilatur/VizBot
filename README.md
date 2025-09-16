@@ -63,6 +63,7 @@ Create a .env file in project root:
 ▶️ Running the App
 
 Run the Streamlit application:
+
     ```bash
     streamlit run app.py
 
